@@ -2,6 +2,8 @@
 
 Python tests with the usage of `Tox` and `Sphinx` packages.
 
+`Github Workflows` implemented for testing.
+
 ## About the project
 
 Tox and pytest tools usage
