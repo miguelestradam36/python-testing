@@ -30,3 +30,6 @@ jobs:
       - name: Run Pytest
         # Run tox using the version of Python in `PATH`
         run: pytest tests/
+      - name: Run Tox test
+        # Run tox using the version of Python in `PATH`
+        run: tox
