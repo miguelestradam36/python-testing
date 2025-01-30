@@ -4,8 +4,8 @@ version = "0.1.0"
 description = ""
 readme = "README.md"
 authors = ["miguelestrada <miguelestradam36@gmail.com>"]
-repository = "https://github.com/miguelestradam36/python-poetry"
-documentation = "https://github.com/miguelestradam36/python-poetry/docs/"
+repository = "https://github.com/miguelestradam36/python-testing"
+documentation = "https://github.com/miguelestradam36/python-testing/docs/"
 include = [
     { path = "tests", format = "sdist" },
     { path = "requirements.txt", format = ["sdist", "wheel"] }
