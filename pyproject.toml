@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "poet"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = ["miguelestrada <miguelestradam36@gmail.com>"]
+repository = "https://github.com/miguelestradam36/python-poetry"
+documentation = "https://github.com/miguelestradam36/python-poetry/docs/"
+include = [
+    { path = "tests", format = "sdist" },
+    { path = "requirements.txt", format = ["sdist", "wheel"] }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pandas = "*"
+boto3 = "*"
+pyyaml = "*"
+
+[build-system]
+requires = ["poetry-core>=0.12"]
+build-backend = "poetry.core.masonry.api"
