@@ -34,7 +34,5 @@ jobs:
         run: pytest tests/
       - name: Run Tox
         run: tox
-      - name: Install Poetry
-        run: poetry install
       - name: Run Poetry
         run: poetry run pytest tests/
